@@ -18,7 +18,7 @@
                         <li>Stars: {{ $travel->hotel_star }}</li>
                         <li>Beds: {{ $travel->beds }}</li>
                         <li>Complete pension: {{ $travel->pension_complete }}</li>
-                        <li>Price/Nigth: {{ $travel->price_night }}</li>
+                        <li>Price/Nigth: €{{ $travel->price_night }}</li>
                     </ul>
                 @endforeach
             </div>
